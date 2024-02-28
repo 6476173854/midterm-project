@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Home Page</title>
+</head>
+<style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+div{
+  color: #0c0b0a;
+}
+h2{
+  text-align: center;
+}
+main {
+  background-color: #2b9bc7;
+}
+header {
+  background-color: #1cd6ae;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: rgb(77, 32, 114);
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #994f4f;
+  padding: 50px;
+  text-align: center;
+}
+
+.services {
+  padding: 50px;
+}
+.services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service-card {
+            width: 25%;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+.service-card {
+  background-color: #6e5d5d;
+  border: 1px solid #0a0909;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.service-card img {
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}</style>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index4.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Mirchi-Dhaba</h1>
+            <p>We provide high-quality of food with many services.</p>
+            <button>Mirchi-Dhaba</button>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-card">
+                <img src="images/tifin.jpg" alt="Service 1">
+                <h3> Tiffin Service </h3>
+                <p>we are giving this service at the customer doorstep. the rate is also cheap as compared to others.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/images (6).jpg" alt="Service 2">
+                <h3>online order</h3>
+                <p>Customer can order thier food while setting at home. So they can save thier time.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/download (1).jpg" alt="Service 3">
+                <h3>Dine-in</h3>
+                <p>people can enjoy their meal with family here.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mirchi-Dhaba. All rights reserved.</p>
+    </footer>
+  
+</body>
+</html>
